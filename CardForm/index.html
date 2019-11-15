@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="card">
+            <div class="card__front card__part">
+                <img class="card__front-square card__square" src="https://image.ibb.co/cZeFjx/little_square.png">
+                <img style="display: none;" class="card__front-logo card__logo"
+                    src="https://www.fireeye.com/partners/strategic-technology-partners/visa-fireeye-cyber-watch-program/_jcr_content/content-par/grid_20_80_full/grid-20-left/image.img.png/1505254557388.png">
+
+                <p class="card_numer">**** **** **** 6258</p>
+                <div class="card__space-75">
+                    <span class="card__label">Card holder</span>
+                    <p class="card__info1">John Doe</p>
+                </div>
+                <div class="card__space-25">
+                    <span class="card__label">Expires</span> <br>
+                    <span class="card__info2">02/</span> <span class="card__info3">23</span>
+                </div>
+            </div>
+
+            <div class="card__back card__part">
+                <div class="card__black-line"></div>
+                <div class="card__back-content">
+                    <div class="card__secret">
+                        <p class="card__secret--last">420</p>
+                    </div>
+                    <img class="card__back-square card__square" src="https://image.ibb.co/cZeFjx/little_square.png">
+                    <img  class="card__back-logo card__logo" style="display: none;"
+                        src="https://www.fireeye.com/partners/strategic-technology-partners/visa-fireeye-cyber-watch-program/_jcr_content/content-par/grid_20_80_full/grid-20-left/image.img.png/1505254557388.png">
+
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <form>
+                <div class="card-number">
+                    <label> Card Number</label>
+                    <input type="text" name="cardnumber" maxlength="19" id="cn" autocomplete="off">
+                    <span class="error"></span>
+                </div>
+                <div class="card-name">
+                    <label> Card Name</label>
+                    <input type="text" name="cardname" maxlength="19" id="cname" autocomplete="off">
+                </div>
+                <div class="box-info">
+                    <div class="sl1">
+                        <label>Experation Date</label>
+                        <select name="" id="selectedMonth">
+                            <option value="">Month</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="sl2">
+                        <select name="" id="selectedYear">
+                            <option value="">Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </div>
+                    <div class="cvv">
+                        <label class="cv">Cvv</label>
+                        <input type="text" name="Cvv" id="CVV" maxlength="3">
+                        <span class="error2"></span>
+                    </div>
+                </div>
+                <input type="submit" name="" id="">
+            </form>
+
+        </div>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
